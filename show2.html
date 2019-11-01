@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 9px;
+  text-align: center;
+  background-color: #b0cdee;
+  border: solid 1px #1f88b99c;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Clickka täsää</div>
+<div id="panel">tässä on teksiä!</div>
+
+<br>
+
+<div id="flip">Clickka täsää</div>
+<div id="panel">tässä on teksiä!</div>
+
+</body>
+</html>
