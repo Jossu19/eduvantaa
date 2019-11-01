@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="">
+<title>Click</title>
+<script src="jquery-3.4.1.js"></script>
+<style type="text/css">
+    p{
+        padding: 20px;
+        background: #90ee91;
+    }
+</style>
+<script>
+        $(function() {
+      $("#visible").click(function() {
+          $('#invisible').toggleClass("show");
+        });  
+      });
+
+      </script>
+      <style>
+        .hide{display:none;}
+        .show{display:block;}
+      </style>
+    </head>
+    <body>
+      <p id="visible">Clicka tässä</p>
+      <p id="invisible" class="hide">Näitkö nyt!</p>
+    </body>
+  </html>
