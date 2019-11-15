@@ -1,45 +1,33 @@
 <!DOCTYPE html>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-<div class="container">
-  <img width="127px" height="128px" class="make_bigger" src="http://www.lyricsmode.com/i/upictures/205882.gif">
-</div>
-<div class="container">
-  <img width="127px" height="128px" class="make_bigger" src="http://www.lyricsmode.com/i/upictures/205882.gif">
-</div>
-<div class="container">
-  <img width="127px" height="128px" class="make_bigger" src="http://www.lyricsmode.com/i/upictures/205882.gif">
-</div>
-
-.active {
-    animation: make_bigger 1s ease;
-    width: 200px;
-    height: 201px;
-  }
-  @keyframes make_bigger {
-    from { width: 127px; height: 128px; }
-    to { width: 200px; height: 201px; }
-  }
-  .non_active {
-    animation: make_smaller 1s ease;
-    width: 127px;
-    height: 128px;
-  }
-  @keyframes make_smaller {
-    from { width: 200px; height: 201px; }
-    to { width: 127px; height: 128px; }
-  }
-  .container {
-    width: 200px;
-    height: 201px;
-  }
-  $('.make_bigger').click(function() {
-    $('.active').not(this).addClass('non_active');
-    $('.active').not(this).removeClass('active');
-    if ($(this).hasClass('active')) {
-      $(this).addClass('non_active');
-      $(this).removeClass('active');
-    } else {
-      $(this).removeClass('non_active');
-      $(this).addClass('active');
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> Animation</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="brains.js"></script>
+<style type="text/css">
+    .box{
+        
+        width: 100px;
+        height: 100px;
+        background: #9d7ede;
+        margin-top: 30px;
+        border-style: solid; /* Required to animate border width */
+        border-color: #6f40ce;
     }
-  });
+</style>
+
+
+
+
+
+</head>
+<body>
+    <button type="button">Start Animation</button>
+    <div class="box">
+            <img id="smile" src="smiley1.png" alt="" width="100" height="123" style="position: relative; cenetr: 10px;"></img>
+
+    </div>
+    
+</body>
+</html>                            
