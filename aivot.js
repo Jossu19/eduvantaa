@@ -8,7 +8,7 @@ function laatikkoFunktio(bn){
         document.getElementById("laatikko1").style.lineHeight = "50px";
     }
     else if (bn == 2){
-        document.getElementById("laatikko2").innerHTML = "<table><tr><td></td></tr></table>"
+        document.getElementById("laatikko2").innerHTML = "<table><tr><td>a</td><td>b</td><td>c</td></tr><tr><td>1</td><td>2</td><td>3</td></tr></table>"
     }
     else if( bn == 3){
         document.getElementById("laatikko3").innerHTML =  '<img src="smiley1.png"><br></img> <img src="smiley2.png"><br></img> <img src="star.jpg"></img>'
