@@ -63,7 +63,6 @@ a.active, .nav a:hover{
     width: 930px;
     min-height: 500px;
     height: auto;
-    /*background-color: red;*/
     right: 0;
     top: 10%;
 }
@@ -84,5 +83,17 @@ a.active, .nav a:hover{
     font-size: 28px;
     padding: 5px 0;
     opacity: 0.6;
+
+}
+.about{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0% 60px;
+}
+.about p{
+    
 
 }
