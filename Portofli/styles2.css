@@ -58,6 +58,9 @@ a.active, .nav a:hover{
 .d{
     width: 90%;
 }
+.e{
+    width: 70%;
+}
 .content{
     position: absolute;
     width: 930px;
@@ -98,5 +101,20 @@ a.active, .nav a:hover{
     font-size: 30px;
     line-height: 28px;
     margin-bottom: 15px;
-    
+}
+.gallery{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    padding: 0% 60px;
+    display: none;
+
+}
+.gallery .image{
+    width: 23%;
+    margin: 2%;
+}
+.image img{
+    width: 100%;
 }
